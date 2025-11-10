@@ -1,0 +1,40 @@
+
+html {
+    scroll-behavior: smooth; /* Para el scroll suave */
+}
+body {
+    font-family: 'inter', sans-serif;
+    background-color: #f3f3f3; /* bg-light */
+    color: #211e1e; /* text-dark */
+}
+
+/* Estilo del Header al hacer scroll */
+header.scrolled {
+    background-color: rgba(33, 30, 30, 0.85); /* text-dark con transparencia */
+    backdrop-filter: blur(10px);
+}
+
+/* --- Estilos de la Galería Creativa --- */
+.gallery-container {
+    -ms-overflow-style: none; /* IE y Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.gallery-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari y Opera */
+}
+
+.gallery-item {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    flex: 0 0 auto;
+    /* Por defecto, desenfocado */
+    filter: grayscale(1) blur(2px);
+    opacity: 0.6;
+    transform: scale(0.9);
+}
+
+.gallery-item.focused {
+    /* El item enfocado */
+    filter: grayscale(0) blur(0);
+    opacity: 1;
+    transform: scale(1.05);
+}
