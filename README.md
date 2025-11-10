@@ -1,16 +1,27 @@
-# React + Vite
+# SKYRED
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esto es un proyecto creado con **React + Vite**.
+para un estudio de fotografía.
 
-Currently, two official plugins are available:
+## Como ejecutar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```gitbash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Como contribuir
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Si quieres contribuir a este proyecto, puedes hacerlo de la siguiente manera:
 
-## Expanding the ESLint configuration
+1. Fork el repositorio
+2. Clona el repositorio en tu máquina
+3. Crea una rama con tu nombre
+4. Hacer los cambios que quieras
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- /feat : Nuevas funcionalidades
+- /fix : Corrección de errores
+- /docs : Cambios en la documentación
+- /style : Cambios en el código de estilo
+- /refactor : Cambios en el código de refactorización
+- /test : Cambios en los tests
